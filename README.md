@@ -15,6 +15,7 @@
    <h2>step1</h2>
    Create a Helm chart with chart name "microservice"<br/>
    "helm create microservice"
+   Create "deployment.yaml" and "service.yaml" configuration files in the template repository
  
   
    From the above information, a connection graph is generated 
