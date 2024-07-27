@@ -29,9 +29,11 @@
 
 
    <h2>step2</h2>
-   Create a kubernetes cluster in linode<br/>
-   change permission on kubeconfig.yaml file<br/>
-   connect to the cluster<br/>
+   Install your chart using helm install command<br/>
+   helm install -f fileName releaseName chartName
+   <img src='./cam/m1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+   
    
   
   
