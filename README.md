@@ -23,7 +23,7 @@
    
  
   
-   From the above information, a connection graph is generated 
+   (helm template -f filename chartName) validates your configuration file
    <img src='./cam/m1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
 
