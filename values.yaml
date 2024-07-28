@@ -1,0 +1,13 @@
+appName: servicename
+appReplicas: 1
+imageName: gcr.io/google-samples/microservices-demo/servicename
+imageVersion: v0.0.0
+containerPort: 8080
+containerEnvVars:
+- name: ENV_VAR_ONE
+  value: "valueone"
+- name: ENV_VAR_TWO
+  value: "valuetwo"
+
+serviceType: ClusterIP
+servicePort: 8080
