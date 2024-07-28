@@ -1,0 +1,12 @@
+appName: shippingservice
+appReplicas: 2
+imageName: gcr.io/google-samples/microservices-demo/shippingservice
+imageVersion: v0.10.0
+containerPort: 50051
+containerEnvVars:
+- name: PORT
+  value: "50051"
+
+
+
+servicePort: 50051
