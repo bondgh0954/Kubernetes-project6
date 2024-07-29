@@ -1,0 +1,41 @@
+releases:
+  - name: adservice
+    chart: charts/microservice
+    values:
+      - values/ad-service-values.yaml
+  - name: cartservice
+    chart: charts/microservice
+    values:
+      - values/cart-service-values.yaml
+  - name: checkoutservice
+    chart: charts/microservice
+    values:
+      - values/checkout-service-values.yaml
+  - name: currencyservice
+    chart: charts/microservice
+    values:
+      - values/currency-service-values.yaml
+  - name: frontend
+    chart: charts/microservice
+    values:
+      - values/frontend-values.yaml
+  - name: payment-service-values.yaml
+    chart: charts/microservice
+    values:
+      - values/payment-service-values.yaml
+  - name: productcatservice
+    chart: charts/microservice
+    values:
+      - values/product-catalog-service-values.yaml
+  - name: recomservice
+    chart: charts/microservice
+    values: 
+      - values/recommendation-service-values.yaml
+  - name: redis
+    chart: charts/redis
+    values:
+      - values/redis-values.yaml
+  - name: shippingservice
+    chart: charts/microservice
+    values:
+      - values/shipping-service-values.yaml
