@@ -12,6 +12,7 @@
 
 
 
+
    <p align="">
    <h2>step1</h2>
    Create a Helm chart with chart name "microservice"<br/>
@@ -34,6 +35,10 @@
    Install your chart using helm install command<br/>
    helm install -f fileName releaseName chartName
    <img src='./im/g4.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+
+   check if the pod installed is running in our cluster with "kubectl get pod" command
+   <img src='./im/g5.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
    
    
