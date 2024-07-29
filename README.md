@@ -9,6 +9,8 @@
 
 <h2>Detailed Description of Project </h2>
 1. Create 1 shared Helm Chart for all microservices to reuse common deployment and Service configuratons for the services<br/>
+2. Deploy microservice with helm
+3. Deploy microservice with helmfile
 
 
 
