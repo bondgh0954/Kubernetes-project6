@@ -17,7 +17,7 @@
    "helm create microservice"
    Create "deployment.yaml" and "service.yaml" configuration files in the template repository<br/>
    Create "values.yaml" file and define all the default values for the configuration files<br/>
-   <img src='./cam/m1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+   <img src='./im/g3.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
    Create values configuration files for each of the services to overide the default values<br/>
    <img src='./im/g2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
