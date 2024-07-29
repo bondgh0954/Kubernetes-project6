@@ -52,8 +52,11 @@
 
    <h2>step3</h2>
  
-  Create Deployment and Service for all microServices in the created cluster
-   <img src='./cam/m3.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+   Deploy microservices with helmfile
+   <img src='./im/g6.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+   install helmfile tool using the command
+   helm sync
    
 
  <h2>step4</h2>
