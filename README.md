@@ -60,9 +60,7 @@
    
 
  <h2>step4</h2>
- All pod are running and application can be accessed in the browser using the node IP and <br/>
- configured external service IP with the frontend service<br/>
- <img src='./cam/m2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+ 
      
 
 </p>
