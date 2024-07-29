@@ -37,7 +37,9 @@
    <img src='./im/g4.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
 
-   check if the pod installed is running in our cluster with "kubectl get pod" command
+   check if the pod installed is running in our cluster with "kubectl get pod" command<br/>
+   the 'emailservice' which was installed using helm install command is up and running<br/>
+   
    <img src='./im/g5.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
    
