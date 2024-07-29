@@ -1,0 +1,22 @@
+appName: frontend
+appReplicas: 2
+imageName: gcr.io/google-samples/microservices-demo/frontend
+imageVersion: v0.10.0
+containerPort: 8080
+containerEnvVars:
+- name: PORT
+  value: "8080"
+- name: PRODUCT_CATALOG_SERVICE_ADDR
+  value: "3550"
+- name: RECOMMENDATION_SERVICE_ADDR
+  value: "8080"
+- name: CART_SERVICE_ADDR
+  value: "7070"
+- name: SHIPPING_SERVICE_ADDR
+  value: "50051"
+- name: AD_SERVICE_ADDR
+  value: "9555"
+- name: CURRENCY_SERVICE_ADDR
+  value: "7000"
+- name: CHECKOUT_SERVICE_ADDR
+  value: "5050"
