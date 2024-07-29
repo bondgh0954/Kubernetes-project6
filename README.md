@@ -20,6 +20,7 @@
    <img src='./cam/m1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
    Create values configuration files for each of the services to overide the default values<br/>
+   <img src='./im/g2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
    
  
   
