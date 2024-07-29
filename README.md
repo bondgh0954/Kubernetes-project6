@@ -32,7 +32,7 @@
    <h2>step2</h2>
    Install your chart using helm install command<br/>
    helm install -f fileName releaseName chartName
-   <img src='./cam/m1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+   <img src='./im/g3.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
    
    
