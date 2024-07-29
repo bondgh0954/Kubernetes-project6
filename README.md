@@ -15,16 +15,16 @@
    <h2>step1</h2>
    Create a Helm chart with chart name "microservice"<br/>
    "helm create microservice"
-   Create "deployment.yaml" and "service.yaml" configuration files in the template repository
-   Create "values.yaml" file and define all the default values for the configuration files
+   Create "deployment.yaml" and "service.yaml" configuration files in the template repository<br/>
+   Create "values.yaml" file and define all the default values for the configuration files<br/>
    <img src='./cam/m1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
-   Create values configuration files for each of the services to overide the default values
+   Create values configuration files for each of the services to overide the default values<br/>
    
  
   
-   (helm template -f filename chartName) validates your configuration file
-   <img src='./cam/m1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+   (helm template -f filename chartName) validates your configuration file <br/>
+   <img src='./im/g1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
 
 
